@@ -1,0 +1,16 @@
+POST http://localhost:3000/event
+Content-type: application/json
+
+{
+    "startTime": "2023-12-31 13:00",
+    "durationInMinutes": 60,
+    "description": "Lektion" 
+}
+
+###
+
+GET http://localhost:3000/events
+
+###
+
+GET http://localhost:3000/event/658434ec44dcf5c4da578347

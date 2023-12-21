@@ -1,0 +1,26 @@
+{
+  "name": "tdd-rest-api-231221",
+  "version": "1.0.0",
+  "description": "POST /event",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.ts",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/mongoose": "^5.11.97",
+    "@types/supertest": "^2.0.16",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.1"
+  }
+}
